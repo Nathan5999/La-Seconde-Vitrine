@@ -1,0 +1,17 @@
+LA SECONDE VITRINE - version de départ
+
+Contenu :
+- index.html : site vitrine responsive en français, sans dépendance ni abonnement logiciel.
+- Les fiches produits sont des exemples à remplacer.
+- Le formulaire prépare un e-mail. Remplacez VOTRE-ADRESSE@EXEMPLE.FR dans index.html par votre adresse professionnelle.
+- Aucun paiement en ligne n'est activé dans cette version.
+
+Avant publication :
+1. Remplacer les fiches exemples par des articles réellement confiés.
+2. Ajouter une adresse e-mail et les coordonnées professionnelles.
+3. Ajouter les mentions légales, politique de confidentialité et conditions contractuelles adaptées à votre activité.
+4. Définir par écrit les conditions avec chaque propriétaire : prix, commission, durée, remise de l'article, livraison, retours et versement.
+5. Ne pas encaisser pour le compte de vendeurs avant d'avoir choisi une solution de paiement adaptée et vérifié ses obligations.
+
+Pour tester : ouvrez index.html dans un navigateur.
+Pour publier gratuitement : utilisez un hébergeur statique proposant une offre gratuite (par exemple GitHub Pages ou Cloudflare Pages). Le nom de domaine personnalisé peut être payant.

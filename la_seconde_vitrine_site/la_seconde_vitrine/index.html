@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La Seconde Vitrine met les objets de seconde main en lumière. Confiez-nous vos articles, nous valorisons leur vente.">
+  <title>La Seconde Vitrine | Vends sans stress</title>
+  <style>
+    :root{--ink:#24231f;--muted:#77736b;--cream:#f7f4ee;--paper:#fffefa;--gold:#b58b55;--line:#e8e1d6}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+    a{color:inherit} .wrap{width:min(1120px,92%);margin:auto}
+    header{background:rgba(255,254,250,.94);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}
+    .brand{font-family:Georgia,serif;font-weight:700;letter-spacing:.08em;font-size:17px;text-decoration:none}
+    nav{display:flex;gap:22px;flex-wrap:wrap}nav a{text-decoration:none;font-size:14px;color:var(--muted)}
+    .hero{padding:88px 0 76px;background:linear-gradient(115deg,#eee6d9,#faf8f3 60%,#e8dfd1)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.18em;color:#876b47;font-size:12px;font-weight:700}
+    h1,h2,h3{font-family:Georgia,serif;line-height:1.12}h1{font-size:clamp(42px,7vw,76px);max-width:780px;margin:18px 0}
+    .hero p{font-size:19px;color:#625d54;max-width:620px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:13px 20px;border-radius:4px;text-decoration:none;font-weight:650;border:1px solid var(--ink)}
+    .primary{background:var(--ink);color:white}.secondary{background:transparent}
+    section{padding:70px 0}.section-head{max-width:650px;margin-bottom:30px}
+    h2{font-size:clamp(30px,4vw,44px);margin:8px 0 12px}
+    .muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--paper);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+    .placeholder{height:190px;background:linear-gradient(135deg,#e9e1d5,#d7c8b3);display:grid;place-items:center;color:#756650;font-family:Georgia,serif;font-size:19px}
+    .card-body{padding:18px}.tag{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#92734d}
+    .card h3{font-size:23px;margin:6px 0}.price{font-weight:700}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .step{border-top:2px solid var(--gold);padding-top:15px}.number{font-family:Georgia,serif;font-size:34px;color:var(--gold)}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+    form{display:grid;gap:13px;background:var(--paper);padding:24px;border:1px solid var(--line);border-radius:8px}
+    label{font-size:14px;font-weight:650}input,textarea,select{width:100%;padding:12px;border:1px solid #d9d1c5;border-radius:4px;background:white;font:inherit}
+    textarea{min-height:110px;resize:vertical}button{cursor:pointer;font:inherit}
+    .note{font-size:13px;color:var(--muted)}
+    footer{background:#24231f;color:#f7f4ee;padding:34px 0}footer p{color:#c9c2b7;font-size:14px}
+    @media(max-width:760px){.grid,.steps,.split{grid-template-columns:1fr}.hero{padding:62px 0}nav{gap:12px}.nav{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#">LA SECONDE VITRINE</a>
+  <nav aria-label="Navigation principale">
+    <a href="#articles">Les articles</a><a href="#fonctionnement">Comment ça marche</a><a href="#depot">Confier un objet</a><a href="#contact">Contact</a>
+  </nav>
+</div></header>
+<main>
+  <section class="hero"><div class="wrap">
+    <div class="eyebrow">La seconde vie des objets, en toute simplicité</div>
+    <h1>Vos objets méritent une seconde vitrine.</h1>
+    <p>Vous avez un article à vendre ? Nous le mettons en valeur et facilitons sa rencontre avec un nouvel acheteur.</p>
+    <div class="actions"><a class="btn primary" href="#depot">Confier un objet</a><a class="btn secondary" href="#articles">Découvrir les articles</a></div>
+  </div></section>
+  <section id="articles"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">La sélection</div><h2>Les articles à découvrir</h2><p class="muted">Les fiches ci-dessous sont des exemples de présentation. Remplacez-les par les articles réellement confiés et disponibles.</p></div>
+    <div class="grid">
+      <article class="card"><div class="placeholder">Photo de l’article</div><div class="card-body"><div class="tag">Exemple de fiche</div><h3>Article à présenter</h3><p class="muted">Description, état et détails utiles à l’acheteur.</p><p class="price">Prix à définir</p><a class="btn secondary" href="#contact">Demander des informations</a></div></article>
+      <article class="card"><div class="placeholder">Photo de l’article</div><div class="card-body"><div class="tag">Exemple de fiche</div><h3>Article à présenter</h3><p class="muted">Description, état et détails utiles à l’acheteur.</p><p class="price">Prix à définir</p><a class="btn secondary" href="#contact">Demander des informations</a></div></article>
+      <article class="card"><div class="placeholder">Photo de l’article</div><div class="card-body"><div class="tag">Exemple de fiche</div><h3>Article à présenter</h3><p class="muted">Description, état et détails utiles à l’acheteur.</p><p class="price">Prix à définir</p><a class="btn secondary" href="#contact">Demander des informations</a></div></article>
+    </div>
+  </div></section>
+  <section id="fonctionnement" style="background:#fffefa"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">Simple et transparent</div><h2>Comment ça marche ?</h2><p class="muted">Un service pensé pour vous simplifier la vente de vos objets.</p></div>
+    <div class="steps">
+      <div class="step"><div class="number">01</div><h3>Vous nous contactez</h3><p class="muted">Présentez-nous votre article et partagez quelques photos.</p></div>
+      <div class="step"><div class="number">02</div><h3>Nous préparons sa vitrine</h3><p class="muted">Après accord sur les conditions, nous préparons une présentation claire de l’article.</p></div>
+      <div class="step"><div class="number">03</div><h3>Nous accompagnons la vente</h3><p class="muted">Nous répondons aux demandes et vous tenons informé selon les modalités convenues.</p></div>
+    </div>
+  </div></section>
+  <section id="depot"><div class="wrap split">
+    <div><div class="eyebrow">Propriétaires et vendeurs</div><h2>Un objet à vendre ? Confiez-le-nous.</h2><p class="muted">Décrivez votre article. Nous reviendrons vers vous pour discuter de son état, de son prix et des conditions de prise en charge.</p><p class="note">L’envoi de ce formulaire ne vaut pas acceptation de l’article ni contrat de vente. Les conditions seront confirmées séparément.</p></div>
+    <form id="depositForm">
+      <div><label for="name">Votre nom</label><input id="name" name="name" required></div>
+      <div><label for="email">Votre adresse e-mail</label><input id="email" name="email" type="email" required></div>
+      <div><label for="item">Quel article souhaitez-vous vendre ?</label><input id="item" name="item" required></div>
+      <div><label for="details">Description et état de l’article</label><textarea id="details" name="details" required></textarea></div>
+      <button class="btn primary" type="submit">Préparer ma demande</button>
+      <p class="note">Version de démarrage : le bouton prépare un e-mail. L’adresse de réception doit être configurée avant publication.</p>
+    </form>
+  </div></section>
+  <section id="contact" style="background:#eee6d9"><div class="wrap split">
+    <div><div class="eyebrow">Une question ?</div><h2>Parlons de votre projet.</h2><p class="muted">Pour acheter un article ou en savoir plus sur notre service, contactez-nous.</p></div>
+    <div><p><strong>E-mail :</strong> à configurer</p><p><strong>Zone de service :</strong> à préciser</p><p class="note">Ajoutez ici vos coordonnées professionnelles et vos horaires de réponse.</p></div>
+  </div></section>
+</main>
+<footer><div class="wrap"><div class="brand">LA SECONDE VITRINE</div><p>Vends sans stress, on met tes objets en lumière.</p><p>© <span id="year"></span> La Seconde Vitrine. Tous droits réservés.</p><p class="note">Avant toute mise en ligne commerciale, ajoutez vos mentions légales, politique de confidentialité, conditions de service et informations sur les modalités de vente.</p></div></footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('depositForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const d = new FormData(this);
+    const subject = encodeURIComponent('Demande de dépôt - La Seconde Vitrine');
+    const body = encodeURIComponent(
+      'Nom : '+d.get('name')+'\\nE-mail : '+d.get('email')+
+      '\\nArticle : '+d.get('item')+'\\nDescription : '+d.get('details')
+    );
+    // Remplacer cette adresse par votre adresse professionnelle avant publication.
+    window.location.href = 'mailto:VOTRE-ADRESSE@EXEMPLE.FR?subject='+subject+'&body='+body;
+  });
+</script>
+</body></html>
